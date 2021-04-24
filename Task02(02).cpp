@@ -163,6 +163,7 @@ int main(){
 	z.imaginary = -1;
 	
 	
+	//Computing a complex equation
 	Complex result = result.minus(result.product(result.conjugate(x), result.sum(w,z)) , y);
 	result.display();
  	return 0;
